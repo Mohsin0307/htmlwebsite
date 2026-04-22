@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    text-align: center;
+  }
+  
+  .container {
+    width: 300px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+  }
+  
+  input {
+    width: 70%;
+    padding: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+    background: #28a745;
+    color: white;
+    border: none;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    background: #eee;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .delete {
+    background: rgba(238, 255, 0, 0.233);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
